@@ -4,7 +4,6 @@ import "./devTeam.css"
 
 
 const DevTeam = () => {
-
     const [developers, setDevelopers] = useState([]);
 
     useEffect(() => {
@@ -32,9 +31,6 @@ const DevTeam = () => {
         location.href = "/" + id;
     }
 
-    
-
-
     return (
         <div className="dev-team-container">
             <h1 className="title"> &lt;Developer Roster /&gt;</h1>
@@ -53,18 +49,11 @@ const DevTeam = () => {
                         <div className="dev-container">
                         <h2 className="no-developers">No Developers Available</h2>
                         <button onClick={goToDevCreate}>Create a Developer</button>
-                        </div>
-                            }
-
+                        </div>}
             </div>
-
-
         </div>
-
-
     );
 };
-
 
 
 export default DevTeam;

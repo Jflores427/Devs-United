@@ -43,6 +43,4 @@ const DevDetails = () => {
 
 };
 
-
-
 export default DevDetails;

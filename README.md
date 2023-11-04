@@ -2,9 +2,9 @@
 
 Submitted by: **Josue Flores**
 
-This web app: **Devs United is a full-stack team-building web application that allows users to create five types of developers (Front-End, Back-End, Full-Stack, Quality Assurance, and Dev Ops) and observe the current members of their team! **
+This web app: **Devs United is a full-stack team-building web application that allows users to create five types of developers (Front-End, Back-End, Full-Stack, Quality Assurance, and Dev Ops) and observe the current members of their team!**
 
-Time spent: **14** hours spent in total
+Time spent: **15** hours spent in total
 
 ## Required Features
 
@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./public/Devs-United.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif  
@@ -39,6 +39,8 @@ GIF created with ScreenToGif
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
+
+<!-- Imgur Link - https://imgur.com/a/q5sTzaG -->
 
 ## Notes
 

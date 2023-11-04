@@ -3,11 +3,10 @@ import  { useParams } from "react-router-dom";
 import supabase from "../client";
 import "./DevEdit.css";
 
-
 const DevEdit = () => {
-
     const [developer, setDeveloper] = useState({});
     const params = useParams();
+
     useEffect(() => {
         getDeveloper();
     }, []);
@@ -75,14 +74,13 @@ const DevEdit = () => {
 
     const deleteDev = () => {
         deleteDeveloper();
-        location.href ="/devTeam";
         alert("Delete Successful!");
     };
 
 
     return (
         <div className="dev-edit-container">
-            <h1 className="title"> Update Your Developer </h1>
+            <h1 className="title"> &lt; Update Your Developer / &gt; </h1>
             <img src="https://img.freepik.com/free-vector/team-programmers-working-program-code-with-laptops-teamwork-male-female-professional-testers-coders-flat-vector-illustration-software-development-programming-lesson-concept_74855-22051.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698796800&semt=ais"></img>
             <h3 className="dev-info-title"> Current Developer Info:</h3>
             <h4 className="dev-info">Name: {developer.name}, WPM: {developer.wpm}, Dev Type: {developer.type}</h4>
@@ -125,7 +123,6 @@ const DevEdit = () => {
                         <label htmlFor="dev-ops">Dev Ops</label> 
                     </div>
                 </div>
-
             </div>
             <div className ="button-container">
                 <button className="submit-button" onClick={updateDev}>Update Developer</button>   
@@ -134,7 +131,5 @@ const DevEdit = () => {
         </div>
     );
 };
-
-
 
 export default DevEdit;

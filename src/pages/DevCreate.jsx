@@ -2,7 +2,6 @@ import supabase from "../client";
 import "./DevCreate.css"
 
 const DevCreate = () => {
-
     const createDeveloper = async (createdObject) => {
         try {
             const { error } = await supabase.from('developers').insert(createdObject)
@@ -49,7 +48,7 @@ const DevCreate = () => {
     return (
         <div className="dev-create-container">
             <h1> &lt; Create A Dev /&gt;</h1>
-            <img alt ="developers image" src="https://img.freepik.com/free-vector/team-programmers-working-program-code-with-laptops-teamwork-male-female-professional-testers-coders-flat-vector-illustration-software-development-programming-lesson-concept_74855-22051.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698796800&semt=ais"></img>
+            <img alt ="Developers image" src="https://img.freepik.com/free-vector/team-programmers-working-program-code-with-laptops-teamwork-male-female-professional-testers-coders-flat-vector-illustration-software-development-programming-lesson-concept_74855-22051.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698796800&semt=ais"></img>
             <div className="forms-container">
 
                 <div className="form-container">
@@ -77,17 +76,17 @@ const DevCreate = () => {
 
                     <div className="full-stack"> 
                         <input type="radio" name="dev-type" id="full-stack" value="Full-Stack"></input>
-                        <label htmlFor="full-stack">Full Stack</label> 
+                        <label htmlFor="full-stack">Full-Stack</label> 
                     </div>
 
                     <div className="quality-assurance">
                         <input type="radio" name="dev-type" id="quality-assurance" value="Quality-Assurance"></input>
-                        <label htmlFor="quality-assurance">Quality Assurance</label> 
+                        <label htmlFor="quality-assurance">Quality-Assurance</label> 
                     </div>
                    
                     <div className="quality-assurance">
                         <input type="radio" name="dev-type" id="dev-ops" value="Dev-Ops"></input>
-                        <label htmlFor="dev-ops">Dev Ops</label> 
+                        <label htmlFor="dev-ops">Dev-Ops</label> 
                     </div>
                 </div>
 
